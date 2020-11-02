@@ -9,6 +9,7 @@ class Navigation extends React.Component {
     this.handleClick = this.handleClick.bind(this);
 
     this.links = [
+      { href: '/posts', label: 'Blog' },
       { href: '/design', label: 'Design' },
       { href: '/art', label: 'Art' },
       { href: '/about', label: 'About & Contact' },
